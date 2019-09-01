@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>Bootstrap Theme</title>
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+    <div class="container">
+      <a href="index.html" class="navbar-brand"><span class="brand-color">New</span>Agency</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="services.html" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="blog.html" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- BANNER SLIDER -->
+  <section id="showcase">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item carousel-image-1 active">
+          <div class="container">
+            <div class="carousel-overlay"></div>
+            <div class="carousel-caption text-right mb-5">
+              <h1 class="display-4 display-sm-3 mb-3 mb-sm-2">Heading On<span class="heading-line">e</span></h1>
+              <p class="lead d-none d-sm-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, aperiam
+                vel ullam deleniti
+                reiciendis ratione
+                quod aliquid inventore vero perspiciatis.</p>
+              <a href="#" class="btn btn-primary btn-lg border-0">Sign Up Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel-image-2">
+          <div class="container">
+            <div class="carousel-overlay"></div>
+            <div class="carousel-caption mb-5">
+              <h1 class="display-4 display-sm-3 mb-3 mb-sm-2">Heading Tw<span class="heading-line">o</span></h1>
+              <p class="lead d-none d-sm-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, aperiam
+                vel ullam deleniti
+                reiciendis ratione
+                quod aliquid inventore vero perspiciatis.</p>
+              <a href="#" class="btn btn-primary btn-lg border-0">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel-image-3">
+          <div class="container">
+            <div class="carousel-overlay"></div>
+            <div class="carousel-caption text-right mb-5">
+              <h1 class="display-4 display-sm-3 mb-3 mb-sm-2">Heading Thre<span class="heading-line">e</span></h1>
+              <p class="lead d-none d-sm-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, aperiam
+                vel ullam deleniti
+                reiciendis ratione
+                quod aliquid inventore vero perspiciatis.</p>
+              <a href="#" class="btn btn-primary btn-lg border-0">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+
+      <a href="#myCarousel" data-slide="next" class="carousel-control-next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ICON SECTION -->
+  <section id="home-icons" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-4 text-center">
+          <i class="fas fa-pencil-ruler fa-3x mb-2"></i>
+          <h3>Design</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, veniam.</p>
+        </div>
+        <div class="col-md-4 mb-4 text-center">
+          <i class="far fa-file-code fa-3x mb-2"></i>
+          <h3>Development</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, veniam.</p>
+        </div>
+        <div class="col-md-4 mb-4 text-center">
+          <i class="fas fa-book-open fa-3x mb-2"></i>
+          <h3>Consulting</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, veniam.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta p-5">
+    <div class="dark-overlay">
+      <div class="row">
+        <div class="col">
+          <div class="container pt-5">
+            <h1>Let's Work Together</h1>
+            <p class="d-none d-md-block">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est eaque magni sit
+              dolores. Nisi, dolor nam modi perspiciatis
+              consequatur soluta.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RANDOM INFO SECTION -->
+  <section class="py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 align-self-center">
+          <h3>Lorem Ipsum</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate eveniet blanditiis incidunt iusto
+            corrupti illum
+            cum laudantium ex sequi amet.</p>
+          <a href="about.html" class="btn btn-outline-primary btn-lg">Learn More</a>
+        </div>
+        <div class="col-md-6">
+          <img src="img/laptop.png" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VIDEO SECTION -->
+  <section class="text-center p-5 bg-ultralight">
+    <div class="row">
+      <div class="col">
+        <div class="container container-video">
+          <h1 class="mb-4">See What We Do</h1>
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="video/242-1080.mp4" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PHOTO GALLERY -->
+  <section class="py-5">
+    <div class="container">
+      <h1 class="text-center">Photo Gallery</h1>
+      <p class="text-center">Check out our photos</p>
+      <div class="row mb-md-4">
+        <div class="col-md-6 col-lg-4 p-3">
+          <a href="img/gallery/alex-iby-3LLSirbukC4-unsplash.jpg" data-toggle="lightbox" data-gallery="img-gallery"
+            data-height="560" data-width="560">
+            <img src="img/gallery/alex-iby-3LLSirbukC4-unsplash.jpg" alt="" class="img-fluid img-cover">
+          </a>
+        </div>
+
+        <div class="col-md-6 col-lg-4 p-3">
+          <a href="img/gallery/daria-sheveleva-_sue1D9nFCM-unsplash.jpg" data-toggle="lightbox"
+            data-gallery="img-gallery" data-height="561" data-width="561">
+            <img src="img/gallery/daria-sheveleva-_sue1D9nFCM-unsplash.jpg" alt="" class="img-fluid img-cover">
+          </a>
+        </div>
+
+        <div class="col-md-6 col-lg-4 p-3">
+          <a href="img/gallery/donald-teel-wCIDfKBMDHE-unsplash.jpg" data-toggle="lightbox" data-gallery="img-gallery"
+            data-height="562" data-width="562">
+            <img src="img/gallery/donald-teel-wCIDfKBMDHE-unsplash.jpg" alt="" class="img-fluid img-cover">
+          </a>
+        </div>
+
+        <div class="col-md-6 col-lg-4 p-3">
+          <a href="img/gallery/francesco-patrinostro-8tMjt2jDbd0-unsplash.jpg" data-toggle="lightbox"
+            data-gallery="img-gallery" data-height="563" data-width="563">
+            <img src="img/gallery/francesco-patrinostro-8tMjt2jDbd0-unsplash.jpg" alt="" class="img-fluid img-cover">
+          </a>
+        </div>
+
+        <div class="col-md-6 col-lg-4 p-3">
+          <a href="img/gallery/jon-tyson-HuRTqaEMD4I-unsplash.jpg" data-toggle="lightbox" data-gallery="img-gallery"
+            data-height="564" data-width="564">
+            <img src="img/gallery/jon-tyson-HuRTqaEMD4I-unsplash.jpg" alt="" class="img-fluid img-cover">
+          </a>
+        </div>
+
+        <div class="col-md-6 col-lg-4 p-3">
+          <a href="img/gallery/jon-tyson-LZvlkvyjvrw-unsplash.jpg" data-toggle="lightbox" data-gallery="img-gallery"
+            data-height="565" data-width="565">
+            <img src="img/gallery/jon-tyson-LZvlkvyjvrw-unsplash.jpg" alt="" class="img-fluid img-cover">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section class="text-center p-5 bg-ultralight">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1>Sign Up For Our Newsletter</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio asperiores consectetur, quae ducimus
+            voluptates
+            vero repellendus architecto maiores recusandae mollitia?</p>
+          <form class="form-inline justify-content-center">
+            <input type="text" class="form-control mb-3 mr-sm-3" placeholder="Enter Name">
+            <input type="text" class="form-control mb-3 mr-sm-3" placeholder="Enter Email">
+            <button class="btn btn-primary mb-3 border-0">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer text-center p-4">
+    <div class="container">
+      <div class="row text-left">
+        <div class="col my-2">
+          <a href="#" class="text-white my-2 mr-2"><i class="fab fa-2x fa-facebook"></i></a>
+          <a href="#" class="text-white m-2"><i class="fab fa-2x fa-instagram"></i></a>
+          <a href="#" class="text-white m-2"><i class="fab fa-2x fa-twitter-square"></i></a>
+          <a href="#" class="text-white m-2"><i class="fab fa-2x fa-youtube"></i></a>
+          <a href="#" class="text-white m-2"><i class="fab fa-2x fa-dribbble-square"></i></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-3 text-left my-3">
+          <h6>Banner photos</h6>
+          <p><small>Photos by ROOM on Unsplash</small></p>
+          <h6>Background photo</h6>
+          <p><small>Photo by True Agency on Unsplash</small></p>
+          <h6>Video</h6>
+          <p"><small><a href="https://mixkit.co/">Video by Mixkit</a></small></p>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 text-left my-3">
+          <h6>Gallery photos</h6>
+          <p class="m-0"><small>Photo by Alex Iby on Unsplash</small></p>
+          <p class="m-0"><small>Photo by Jon Tyson on Unsplash</small></p>
+          <p class="m-0"><small>Photo by Jon Tyson on Unsplash</small></p>
+          <p class="m-0"><small>Photo by Daria Sheveleva on Unsplash</small></p>
+          <p class="m-0"><small>Photo by Donald Teel on Unsplash</small></p>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 text-left my-3">
+          <h6>Blog photos</h6>
+          <p class="m-0"><small>Photo by Patrick Tomasso on Unsplash</small></p>
+          <p class="m-0"><small>Photo by Florian Klauer on Unsplash</small></p>
+          <p class="m-0"><small>Photo by Kristopher Roller on Unsplash</small></p>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 text-left my-3">
+          <h6>Other photos</h6>
+          <p class="m-0"><small>Photo by Nathan Dumlao on Unsplash</small></p>
+        </div>
+      </div>
+
+      <hr class="line">
+      <div class="row">
+        <div class="col">
+          <p class="m-0">Copyright &copy;
+            <span class="year"></span> NewAgency</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://kit.fontawesome.com/4aaf5fb307.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+
+  <script>
+    // Get the current year for the copyright
+    $('.year').text(new Date().getFullYear());
+
+    // Configure Slider
+    $('.carousel').carousel({
+      interval: 8000,
+      pause: 'hover'
+    });
+
+    // Lightbox Init
+    $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+      event.preventDefault();
+      $(this).ekkoLightbox();
+    });
+  </script>
+</body>
+
+</html>
